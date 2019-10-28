@@ -17,7 +17,7 @@
     | Index        | String                       | StringBuffer | StringBuilder |
     | ------------ | ---------------------------- | ------------ | ------------- |
     | Storage Area | Heap or Constant String Pool | Heap         | Heap          |
-    | Modiifable   | No(immutable)                | Yes(mutable) | Yes(mutable)  |
+    | Modifable    | No(immutable)                | Yes(mutable) | Yes(mutable)  |
     | Thread-Safe  | YES                          | YES          | NO            |
     
     - String과 다른 클래스(StringBuffer, StringBuilder)의 기본적인 차이는 String은 Immutable(불변), StringBuffer, StringBuilder는 Mutable(가변)에 있습니다.

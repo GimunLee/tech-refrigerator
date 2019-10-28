@@ -15,7 +15,7 @@
   - **```String vs StringBuffer vs StringBuilder```**
 
     | Index        | String        | StringBuffer | StringBuilder |
-  | ------------ | ------------- | ------------ | ------------- |
+    | ------------ | ------------- | ------------ | ------------- |
     | Storage Area | Heap          | Heap         | Heap          |
     | Modiifable   | No(immutable) | Yes(mutable) | Yes(mutable)  |
     | Thread-Safe  | YES           | YES          | NO            |

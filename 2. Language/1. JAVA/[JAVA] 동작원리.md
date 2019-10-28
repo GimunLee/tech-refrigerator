@@ -2,6 +2,8 @@
 
 ---
 
+Assembly by Ricky (2019-10-27)
+
 - #####  Introduction
 
   <img src="./resources/java-동작원리-001.png">

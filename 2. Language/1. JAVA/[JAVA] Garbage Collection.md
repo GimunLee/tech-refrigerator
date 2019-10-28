@@ -85,49 +85,51 @@
   
        <img src="./resources/java-gc-007.png">
   
-       <br>
+       ---
+  
+       
   
     2. Eden space가 가득차게 되면, minor garbage collection이 시작됩니다.
   
        <img src="./resources/java-gc-008.png">
   
-       <br>
+       ---
   
     3. 참조되는 객체들은 첫 번째 survivor(S0)로 이동되어지고, 비 참조 객체는 Eden space가 clear 될 때 반환됩니다.
   
        <img src="./resources/java-gc-009.png">
   
-       <br>
+       ---
   
     4. 다음 minor GC 때, Eden space에서는 같은 일이 일어납니다. 비 참조 객체는 삭제되고 참조 객체는 survivor space로 이동하는 것 입니다. 그러나 이 케이스에서 참조 객체는 두 번째 survivor space로 이동하게 됩니다. 게다가 최근 minor GC에서 첫 번째 survivor space로 이동된 객체들도 age가 증가하고 S1 공간으로 이동하게 됩니다. 한번 모든 surviving 객체들이 S1으로 이동하게 되면 S0와 Eden 공간은 Clear 됩니다. 주의해야할 점은 이제 우리는 다른 aged 객체들을 서바이버 공간에 가지게 되었다는 것입니다.
   
        <img src="./resources/java-gc-010.png">
   
-       <br>
+       ---
   
-    5.  다음 minor GC 때, 같은 과정이 반복 됩니다. 그러나 이 번엔 survivor space들은 switch 됩니다. 참조되는 객체들은 S0로 이동합니다. 살아남은 객체들은 aged되죠. 그리고 Eden과 S1 공간은 Clear 됩니다.
+    5. 다음 minor GC 때, 같은 과정이 반복 됩니다. 그러나 이 번엔 survivor space들은 switch 됩니다. 참조되는 객체들은 S0로 이동합니다. 살아남은 객체들은 aged되죠. 그리고 Eden과 S1 공간은 Clear 됩니다.
   
        <img src="./resources/java-gc-011.png">
   
-       <br>
+       ---
   
     6. 아래 그램은 promotion을 보여줍니다. minor GC 후 aged 오브젝트들이 일정한 age threshold(문지방)을 넘게 되면 그들은 young generation에서 old로 promotion 되어집니다. 여기서는 8을 예로 들었습니다.
   
        <img src="./resources/java-gc-012.png">
   
-       
-  
-       <br>
+       ---
   
     7. minor GC가 계속되고 계속해서 객체들이 Old Generation으로 이동됩니다.
   
        <img src="./resources/java-gc-013.png">
   
-       <br>
+       ---
   
     8. 아래 그림은 전 과정을 보여주고 있습니다. 결국 major GC가 old Generation에 시행되고, old Generation은 Clear 되고, 공간이 Compact 되어집니다.
   
        <img src="./resources/java-gc-014.png">
+    
+       ---
 
 <br>
 

@@ -1,4 +1,4 @@
-### Bubble Sort
+### Selection Sort
 
 ---
 
@@ -6,76 +6,94 @@
 
 - ##### Introduction
   
-  - 정렬 알고리즘 중 가장 기초가 되는 Bubble Sort에 대해 알아보겠습니다.
+  - Bubble Sort와 유사한 Selection Sort에 대해 알아보겠습니다.
 
 <br>
 
 - ##### Body
 
-  - **```Bubble Sort```**
+  - **```Selection Sort```**
 
-    - 선택 정렬(Selection Sort)과 유사한 알고리즘으로 **서로 인접한 두 원소의 대소를 비교하고, 조건에 맞지 않다면 자리를 교환하며 정렬하는 알고리즘**입니다.
-    - 이름의 유래로는 정렬 과정에서 원소의 이동이 거품이 수면으로 올라오는 듯한 모습을 보이기 때문에 지어졌다고 합니다.
+    - Bubble Sort과 유사한 알고리즘으로, **해당 순서에 원소를 넣을 위치는 이미 정해져 있고, 어떤 원소를 넣을지 선택하는 알고리즘**입니다.
+    - 선택 정렬(Selection Sort)과 삽입 정렬(Insertion Sort)을 헷갈려하시는 분들이 종종 있는데, Selection Sort는 배열에서 해당 자리를 **선택하고 그 자리에 오는 값을 찾는 것**이라고 생각하시면 편합니다.
 
   - **```정렬 과정```**
 
-    1. 1회전에 첫 번째 원소와 두 번째 원소를, 두 번째 원소와 세 번째 원소를, 세 번째 원소와 네 번째 원소를, … 이런 식으로  (마지막-1)번째 원소와 마지막 원소를 비교하여 조건에 맞지 않는다면 서로 교환합니다.
-    2. 1회전을 수행하고 나면 가장 큰 원소가 맨 뒤로 이동하므로 2회전에서는 맨 끝에 있는 원소는 정렬에서 제외되고, 2회전을 수행하고 나면 끝에서 두 번째 원소까지는 정렬에서 제외됩니다. 이렇게 정렬을 1회전 수행할 때마다 정렬에서 제외되는 데이터가 하나씩 늘어납니다.
-  
-- **```Java Code(Accending)```**
-  
-    ```java
-    void bubbleSort(int[] arr) {
-        int temp = 0;
-    	for(int i = 0; i < arr.length; i++) {       // 1.
-    		for(int j= 1 ; j < arr.length-i; j++) { // 2.
-    			if(arr[j-1] > arr[j]) {             // 3.
-                    // swap(arr[j-1], arr[j])
-    				temp = arr[j-1];
-    				arr[j-1] = arr[j];
-    				arr[j] = temp;
-    			}
-    		}
-    	}
-    	System.out.println(Arrays.toString(arr));
+    1. 주어진 배열 중에 최소값을 찾습니다.
+    2. 그 값을 맨 앞에 위치한 값과 교체합니다. (pass)
+    3. 맨 처음 위치를 뺀 나머지 배열을 같은 방법으로 교체합니다.
+    
+  - **```Java Code(Accending)```**
+    
+      ```java
+      void selectionSort(int[] arr) {
+          int indexMin, temp;
+          for (int i = 0; i < arr.length-1; i++) {        // 1.
+              indexMin = i;
+              for (int j = i + 1; j < arr.length; j++) {  // 2.
+                  if (arr[j] < arr[indexMin]) {           // 3.
+                      indexMin = j;
+                  }
+              }
+              // 4. swap(arr[indexMin], arr[i])
+              temp = arr[indexMin];
+              arr[indexMin] = arr[i];
+              arr[i] = temp;
+        }
+        System.out.println(Arrays.toString(arr));
   }
-  ```
-
-    1. 제외될 원소의 갯수를 의미합니다. 1회전이 끝난 후, 배열의 마지막 위치에는 가장 큰 원소가 위치하기 때문에 하나씩 증가시켜줍니다.
-    2. 원소를 비교할 index를 뽑을 반복문입니다. j는 현재 원소를 가리키고, j-1은 이전 원소를 가리키게 되므로, j는 1부터 시작하게 됩니다.
-    3. 현재 가르키고 있는 두 원소의 대소를 비교합니다. 해당 코드는 오름차순 정렬이므로 현재 원소보다 이전 원소가 더 크다면 이전 원소가 뒤로 가야하므로 서로 자리를 교환해줍니다.
+    ```
+    
+    1. 우선, 위치(index)를 **선택**해줍니다.
+    2. i+1번째 원소부터 선택한 위치(index)의 값과 비교를 시작합니다.
+    3. 오름차순이므로 현재 선택한 자리에 있는 값보다 순회하고 있는 값이 작다면, 위치(index)를 갱신해줍니다.
+    4. '2'번 반복문이 끝난 뒤에는 indexMin에 '1'번에서 선택한 위치(index)에 들어가야하는 값의 위치(index)를 갖고 있으므로 서로 교환(swap)해줍니다.
+    
+  - **```GIF로 이해하는 Selection Sort```**
   
-  - **```GIF로 이해하는 Bubble Sort```**
-  
-    <img src="./resources/bubble-sort-001.gif">
+    <img src="./resources/selection-sort-001.gif">
   
   - **```시간복잡도```**
-    - 시간복잡도를 계산하면, ```(n-1) + (n-2) + (n-3) + .... + 2 + 1 => n(n-1)/2```이므로, O(n^2)입니다.  
-    - 또한, Bubble Sort는 정렬이 돼있던 안돼있던, 2개의 원소를 비교하기 때문에 최선, 평균, 최악 모두 시간복잡도가 **O(n^2)**으로 동일합니다. *(개선된 Bubble Sort가 존재하긴 하나, 이번 장은 기초를 다지기 위한 학습이므로 넘어가겠습니다.)*
+  
+    - 데이터의 개수가 n개라고 했을 때, 
+  
+      - 첫 번째 회전에서의 비교횟수 : 1 ~ (n-1) => n-1
+  
+      - 두 번째 회전에서의 비교횟수 : 2 ~ (n-1) => n-2
+  
+        ...
+  
+      - (n-1) + (n-2) + .... + 2 + 1 => n(n-1)/2
+  
+    - 비교하는 것이 상수 시간에 이루어진다는 가정 아래, n개의 주어진 배열을 정렬하는데 O(n^2)만큼의 시간이 걸립니다.
+  
   - **```공간복잡도```**
-    
+  
     - 주어진 배열 안에서 교환(swap)을 통해, 정렬이 수행되므로 **O(n)**입니다.
+  
   - **```장점```**
-    - 구현이 매우 간단하고, 소스코드가 직관적입니다.
-    - 정렬하고자 하는 배열 안에서 교환하는 방식이므로, 다른 메모리 공간을 필요로 하지 않습니다.
+    - Bubble sort와 마찬가지로 알고리즘이 단순합니다.
+    - 정렬을 위한 비교 횟수는 많지만, Bubble Sort에 비해 실제로 교환하는 횟수는 적기 때문에 많은 교환이 일어나야 하는 자료상태에서 비교적 효율적입니다.
+    - Bubble Sort와 마찬가지로 정렬하고자 하는 배열 안에서 교환하는 방식이므로, 다른 메모리 공간을 필요로 하지 않습니다. => 제자리 정렬(in-place sorting)
   - 단점
-    
-    - 시간복잡도가 O(n^2)으로, 굉장히 비효율적입니다.
-    - 만약 현재 가리키고 있는 원소가 정렬 됐을때의 자리로 가기 위해서 교환(swap)연산이 많이 일어나게 됩니다. 이러한 단점에서 고안된 알고리즘으로  Shell Sort가 있습니다.
+  
+    - 시간복잡도가 O(n^2)으로, 비효율적입니다.
+    - 불안정 정렬(Unstable Sort) 입니다.
 
 <br>
 
 - ##### Conclusion
 
-  - 가장 직관적인 Bubble Sort에 대해 알아보았습니다. 기술 면접에서도 종종 나오는 정렬 알고리즘으로 알아두시면 좋을 것 같습니다.
+  - Bubble Sort와 유사하지만, 조금 더 빠른 Selection Sort에 대해 알아보았습니다. 기술 면접이나 시험(n번째 회전에 정렬 상태)에서도 종종 나오는 정렬이니 알아두시면 좋을 것 같습니다.
 
 <br>
 
 - ##### Reference & Additional Resources
 
-  - https://zeddios.tistory.com/20 
   - https://jinhyy.tistory.com/9 
-  - https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html 
+  - [https://medium.com/@joongwon/%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EC%B4%88-805391cb088e](https://medium.com/@joongwon/정렬-알고리즘-기초-805391cb088e) 
+  - https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html 
+  - [https://ko.wikipedia.org/wiki/%EC%84%A0%ED%83%9D_%EC%A0%95%EB%A0%AC](https://ko.wikipedia.org/wiki/선택_정렬) 
 
 ---
 

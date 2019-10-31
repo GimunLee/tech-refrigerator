@@ -22,11 +22,11 @@
 
 - #### Algorithm
 
-  -  [Bubble Sort](https://github.com/GimunLee/tech-encyclopedia/blob/master/Computer%20Science/Algorithm/Bubble%20Sort.md#bubble-sort)
+  -  [거품 정렬(Bubble Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Computer%20Science/Algorithm/Bubble%20Sort.md#bubble-sort)
 
-  -  [Selection Sort](https://github.com/GimunLee/tech-encyclopedia/blob/master/Computer%20Science/Algorithm/Selection%20Sort.md#selection-sort) 
+  - [선택 정렬(Selection Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Computer%20Science/Algorithm/Selection%20Sort.md#selection-sort) 
 
-  -  [Insertion Sort](https://github.com/GimunLee/tech-encyclopedia/blob/master/Computer%20Science/Algorithm/Insertion%20Sort.md#insertion-sort) 
+  - [삽입 정렬(Insertion Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Computer%20Science/Algorithm/Insertion%20Sort.md#insertion-sort)
 
     <br>
 

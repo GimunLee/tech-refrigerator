@@ -22,7 +22,7 @@
 
 - #### Algorithm
 
-  -  [거품 정렬(Bubble Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Algorithm/Bubble%20Sort.md#bubble-sort)
+  -  [거품 정렬(Bubble Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Algorithm/%EA%B1%B0%ED%92%88%20%EC%A0%95%EB%A0%AC%20(Bubble%20Sort).md#%EA%B1%B0%ED%92%88-%EC%A0%95%EB%A0%AC-bubble-sort)
 
   - [선택 정렬(Selection Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Algorithm/Selection%20Sort.md#selection-sort) 
 

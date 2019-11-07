@@ -26,7 +26,7 @@
 
   - [선택 정렬(Selection Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Algorithm/Selection%20Sort.md#selection-sort) 
 
-  - [삽입 정렬(Insertion Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Algorithm/Insertion%20Sort.md#insertion-sort)
+  - [삽입 정렬(Insertion Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC%20(Insertion%20Sort).md#%EC%82%BD%EC%9E%85-%EC%A0%95%EB%A0%AC-insertion-sort)
 
     <br>
 

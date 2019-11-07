@@ -20,7 +20,9 @@
 
 ## 🎈 Algorithm
 - [거품 정렬(Bubble Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Algorithm/%EA%B1%B0%ED%92%88%20%EC%A0%95%EB%A0%AC%20(Bubble%20Sort).md#%EA%B1%B0%ED%92%88-%EC%A0%95%EB%A0%AC-bubble-sort)
+
 - [선택 정렬(Selection Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC%20(Selection%20Sort).md#%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC-selection-sort) 
+
 - [삽입 정렬(Insertion Sort)](https://github.com/GimunLee/tech-encyclopedia/blob/master/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC%20(Insertion%20Sort).md#%EC%82%BD%EC%9E%85-%EC%A0%95%EB%A0%AC-insertion-sort)
 
 <br>
@@ -41,7 +43,9 @@
 
 ## 🎈 JAVA
 - [문자열 클래스](https://github.com/GimunLee/tech-encyclopedia/blob/master/JAVA/%5BJAVA%5D%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4.md#java-%EB%AC%B8%EC%9E%90%EC%97%B4-%ED%81%B4%EB%9E%98%EC%8A%A4) 
+
 - [동작 원리](https://github.com/GimunLee/tech-encyclopedia/blob/master/JAVA/%5BJAVA%5D%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md#java-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC) 
+
 - [Garbage Collection](https://github.com/GimunLee/tech-encyclopedia/blob/master/JAVA/%5BJAVA%5D%20Garbage%20Collection.md#java-garbage-collection) 
 
 <br>

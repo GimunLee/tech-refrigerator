@@ -113,7 +113,7 @@
 
     - 비교 횟수
 
-      <img src="./resources/quick-sort-003.png">
+      <img src="./resources/quick-sort-003.png" height="400">
 
       - 순환 호출의 깊이 (n)
         - 레코드의 개수 n이 2의 거듭제곱이라고 가정(n=2^k)했을 때, 순환 호출의 깊이는 **n** 임을 알 수 있습니다.

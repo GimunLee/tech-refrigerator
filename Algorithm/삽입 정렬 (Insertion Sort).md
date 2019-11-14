@@ -4,24 +4,28 @@
 
 <br>
 
-## Introduction
+## Goal
 
-Selection Sort와 유사하지만, 좀 더 효율적인 정렬 알고리즘으로 Insertion Sort가 어떤식으로 동작하는지, 어떤 차이가 있는지 알아보겠습니다.
+- Insertion Sort에 대해 설명할 수 있다.
+- Insertion Sort 과정에 대해 설명할 수 있다.
+- Insertion Sort을 구현할 수 있다.
+- Insertion Sort의 시간복잡도와 공간복잡도를 계산할 수 있다.
+- Insertion Sort와 Selection Sort 차이에 대해 설명할 수 있다.
 
 ## Abstract
 
 - 손 안의 카드를 정렬하는 방법과 유사합니다.
+- Insertion Sort는 Selection Sort와 유사하지만, 좀 더 효율적인 정렬 알고리즘입니다.
 - Insertion Sort는 **2번째 원소부터 시작하여 그 앞(왼쪽)의 원소들과 비교하여 삽입할 위치를 지정한 후, 원소를 뒤로 옮기고 지정된 자리에 자료를 삽입**하여 정렬하는 알고리즘입니다.
-
 - 최선의 경우 O(N)이라는 엄청나게 빠른 효율성을 가지고 있어, 다른 정렬 알고리즘의 일부로 사용될 만큼 좋은 정렬 알고리즘입니다.
 
-## Process
+## Process (Ascending)
 
 1. 정렬은 2번째 위치(index)의 값을 temp에 저장합니다.
 2. temp와 이전에 있는 원소들과 비교하며 삽입해나갑니다.
 3. '1'번으로 돌아가 다음 위치(index)의 값을 temp에 저장하고, 반복합니다.
 
-## Java Code(Ascending)
+## Java Code (Ascending)
 
 ```java
 void insertionSort(int[] arr)
@@ -64,7 +68,7 @@ void insertionSort(int[] arr)
 - 알고리즘이 단순합니다.
 - 대부분의 원소가 이미 정렬되어 있는 경우, 매우 효율적일 수 있습니다.
 - 정렬하고자 하는 배열 안에서 교환하는 방식이므로, 다른 메모리 공간을 필요로 하지 않습니다. => 제자리 정렬(in-place sorting)
-- 안정 정렬(Stable Sort) 입니다.
+- **안정 정렬(Stable Sort)** 입니다.
 - Selection Sort나 Bubble Sort과 같은 O(n^2) 알고리즘에 비교하여 상대적으로 빠릅니다.
 
 ## 단점

@@ -4,22 +4,25 @@
 
 <br>
 
-## Introduction
+## Goal
 
-Bubble Sort와 유사한 Selection Sort에 대해 알아보겠습니다.
+- Selection Sort에 대해 설명할 수 있다.
+- Selection Sort 과정에 대해 설명할 수 있다.
+- Selection Sort을 구현할 수 있다.
+- Selection Sort의 시간복잡도와 공간복잡도를 계산할 수 있다.
 
 ## Abstract
 
-- Bubble Sort과 유사한 알고리즘으로, **해당 순서에 원소를 넣을 위치는 이미 정해져 있고, 어떤 원소를 넣을지 선택하는 알고리즘**입니다.
-- 선택 정렬(Selection Sort)과 삽입 정렬(Insertion Sort)을 헷갈려하시는 분들이 종종 있는데, Selection Sort는 배열에서 **해당 자리를 선택하고 그 자리에 오는 값을 찾는 것**이라고 생각하시면 편합니다.
+- Selection Sort는 Bubble Sort과 유사한 알고리즘으로, **해당 순서에 원소를 넣을 위치는 이미 정해져 있고, 어떤 원소를 넣을지 선택하는 알고리즘**입니다.
+- Selection Sort와 Insertion Sort를 헷갈려하시는 분들이 종종 있는데, Selection Sort는 배열에서 **해당 자리를 선택하고 그 자리에 오는 값을 찾는 것**이라고 생각하시면 편합니다.
 
-## Process
+## Process (Ascending)
 
 1. 주어진 배열 중에 최소값을 찾습니다.
 2. 그 값을 맨 앞에 위치한 값과 교체합니다. (pass)
 3. 맨 처음 위치를 뺀 나머지 배열을 같은 방법으로 교체합니다.
 
-## Java Code(Ascending)
+## Java Code (Ascending)
 
 ```java
 void selectionSort(int[] arr) {
@@ -68,7 +71,7 @@ void selectionSort(int[] arr) {
   - 최선, 평균, 최악 시간복잡도는 **O(n^2)** 으로 동일합니다.
 
 - 공간복잡도
-- 주어진 배열 안에서 교환(swap)을 통해, 정렬이 수행되므로 **O(n)**입니다.
+  - 주어진 배열 안에서 교환(swap)을 통해, 정렬이 수행되므로 **O(n)**입니다.
 
 ## 장점
 

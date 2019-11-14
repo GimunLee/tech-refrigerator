@@ -4,9 +4,9 @@
 
 <br>
 
-##  Introduction
+## Introduction
 
-<img src="./resources/java-동작원리-001.png">
+<img src="./resources/java-동작원리-001.png" height="300">
 
 - 자바는 OS에 독립적인 특징을 가지고 있는데, 그것이 가능한 이유는 JVM(Java Vitual Machine) 상에서 실행되기 때문입니다. 
 - JVM에 대해 간략하게 설명하자면, 자바 소스코드 컴파일 후 생성된 파일이 해석(Interpret)과 Link없이 바로 JVM에 적재되고, OS로 부터 메모리를 할당받아 GC(Garbage Collection)를 통해 스스로 메모리 관리를 한다는 특징이 있습니다.
@@ -14,7 +14,7 @@
 
 ## Process
 
-<img src="./resources/java-동작원리-002.png">
+<img src="./resources/java-동작원리-002.png" >
 
 - 우선 위의 그림을 토대로 간략하게 동작원리에 대해 짚고 넘어가보겠습니다.
 

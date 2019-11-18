@@ -11,16 +11,22 @@
 - Selection Sort을 구현할 수 있다.
 - Selection Sort의 시간복잡도와 공간복잡도를 계산할 수 있다.
 
+<br>
+
 ## Abstract
 
 - Selection Sort는 Bubble Sort과 유사한 알고리즘으로, **해당 순서에 원소를 넣을 위치는 이미 정해져 있고, 어떤 원소를 넣을지 선택하는 알고리즘**입니다.
 - Selection Sort와 Insertion Sort를 헷갈려하시는 분들이 종종 있는데, Selection Sort는 배열에서 **해당 자리를 선택하고 그 자리에 오는 값을 찾는 것**이라고 생각하시면 편합니다.
+
+<br>
 
 ## Process (Ascending)
 
 1. 주어진 배열 중에 최소값을 찾습니다.
 2. 그 값을 맨 앞에 위치한 값과 교체합니다. (pass)
 3. 맨 처음 위치를 뺀 나머지 배열을 같은 방법으로 교체합니다.
+
+<br>
 
 ## Java Code (Ascending)
 
@@ -48,9 +54,13 @@ void selectionSort(int[] arr) {
 3. 오름차순이므로 현재 선택한 자리에 있는 값보다 순회하고 있는 값이 작다면, 위치(index)를 갱신해줍니다.
 4. '2'번 반복문이 끝난 뒤에는 indexMin에 '1'번에서 선택한 위치(index)에 들어가야하는 값의 위치(index)를 갖고 있으므로 서로 교환(swap)해줍니다.
 
+<br>
+
 ## GIF로 이해하는 Selection Sort
 
 <img src="./resources/selection-sort-001.gif">
+
+<br>
 
 ## 시간복잡도 & 공간복잡도
 
@@ -71,7 +81,10 @@ void selectionSort(int[] arr) {
   - 최선, 평균, 최악 시간복잡도는 **O(n^2)** 으로 동일합니다.
 
 - 공간복잡도
+  
   - 주어진 배열 안에서 교환(swap)을 통해, 정렬이 수행되므로 **O(n)**입니다.
+
+<br>
 
 ## 장점
 
@@ -83,6 +96,8 @@ void selectionSort(int[] arr) {
 
 - 시간복잡도가 O(n^2)으로, 비효율적입니다.
 - **불안정 정렬(Unstable Sort)** 입니다.
+
+<br>
 
 ## Conclusion
 

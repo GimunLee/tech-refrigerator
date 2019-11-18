@@ -4,9 +4,19 @@
 
 <br>
 
+## Goal
+
+- JAVA의 3가지 문자열 클래스에 대해 간략하게 설명할 수 있다.
+- 각 문자열 클래스의 차이점에 대해 설명할 수 있다.
+- 상황에 맞게 문자열 클래스를 사용할 수 있다.
+
+<br>
+
 ##  Introduction
 
 JAVA에는 문자열 클래스로 String, StringBuffer, StringBuilder 3가지가 있습니다. 사소해보이지만 상황에라 어떤 클래스를 쓰냐에 따라, 성능차이가 발생하는데요. 어떤 차이점이 있는지 알아보도록 하겠습니다. 
+
+<br>
 
 ## String vs StringBuffer vs StringBuilder
 
@@ -18,6 +28,8 @@ JAVA에는 문자열 클래스로 String, StringBuffer, StringBuilder 3가지가
 
 - String과 다른 클래스(StringBuffer, StringBuilder)의 기본적인 차이는 String은 Immutable(불변), StringBuffer, StringBuilder는 Mutable(가변)에 있습니다.
 
+<br>
+
 ## String Class
 
 - String 객체는 한번 생성되면 할당된 메모리 공간이 변하지 않습니다. 즉, '+' 연산 또는 concat 메서드를 통해 기존에 생성된 String 객체에 다른 문자열을 붙여도 기존 문자열에 새로운 문자열을 붙이는 것이 아닙니다. 새로운 String 객체를 만든 후, 이 객체에 연결된 문자열을 저장하고, 그 객체를 참조하도록합니다. 
@@ -28,6 +40,8 @@ JAVA에는 문자열 클래스로 String, StringBuffer, StringBuilder 3가지가
   - 문자열 연산('+', concat 등)을 많이 일어나는 경우, 더이상 참조되지 않는 기존 객체는 Garbage Collection(이하, GC)에 의해 제거되야하기 때문에 성능이 좋지 않습니다. 
   - 또한,  문자열 연산이 많아질 때 연산 내부적으로 char 배열을 사용하고, 계속해서 객체를 만드는 오버헤드가 발생하므로 성능이 떨어질 수 밖에 없습니다.
 
+<br>
+
 ## StringBuffer와 StringBuilder Class
 
 - StringBuffer와 StringBuilder 클래스는 String과 다르게 mutable(변경가능)합니다. 즉, 문자열 연산에 있어서 클래스를 한번만 만들고(new), 연산이 필요할 때 크기를 변경시켜서 문자열을 변경합니다. 그러므로 문자열 연산이 자주 있을 때 사용하면 성능이 좋습니다.
@@ -35,6 +49,8 @@ JAVA에는 문자열 클래스로 String, StringBuffer, StringBuilder 3가지가
 - StringBuffer는 각 메서드별로 Synchronized Keyword가 존재하여, Multi-Thread 환경에서도 동기화를 지원하여 Thread-Safe합니다. 
 - 반면, StringBuilder는 동기화를 보장하지 않습니다. 하지만 StringBuilder는 Single-Thread 환경에서 동기화를 고려하지 않기 때문에 StringBuffer에 비해 연산처리가 빠릅니다.
 - ```그렇기 때문에 Multi-Thread 환경이라면 값 동기화 보장을 위해 StringBuffer를 사용하고, Single-Thread 환경이라면 StringBuilder를 사용하는 것이 좋습니다.```
+
+<br>
 
 ## Conclusion
 

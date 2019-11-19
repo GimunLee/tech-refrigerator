@@ -53,5 +53,7 @@
   - [[JAVA] Promotion & Casting](https://github.com/GimunLee/tech-encyclopedia/blob/master/Language/JAVA/%5BJAVA%5D%20Promotion%20%26%20Casting.md#java-promotion--casting)
   
   - [[JAVA] Upcasting & Downcasting](https://github.com/GimunLee/tech-encyclopedia/blob/master/Language/JAVA/%5BJAVA%5D%20Upcasting%20%26%20Downcasting.md#java-upcasting--downcasting)
+  
+  - [[JAVA] Error & Exception](https://github.com/GimunLee/tech-encyclopedia/blob/master/Language/JAVA/%5BJAVA%5D%20Error%20%26%20Exception.md#java-error--exception)
 <br>
 

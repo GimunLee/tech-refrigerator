@@ -15,8 +15,9 @@
 
 ## Abstract
 
-- Selection Sort는 Bubble Sort과 유사한 알고리즘으로, **해당 순서에 원소를 넣을 위치는 이미 정해져 있고, 어떤 원소를 넣을지 선택하는 알고리즘**입니다.
-- Selection Sort와 Insertion Sort를 헷갈려하시는 분들이 종종 있는데, Selection Sort는 배열에서 **해당 자리를 선택하고 그 자리에 오는 값을 찾는 것**이라고 생각하시면 편합니다.
+Selection Sort는 Bubble Sort과 유사한 알고리즘으로, **해당 순서에 원소를 넣을 위치는 이미 정해져 있고, 어떤 원소를 넣을지 선택하는 알고리즘**입니다.
+
+Selection Sort와 Insertion Sort를 헷갈려하시는 분들이 종종 있는데, Selection Sort는 배열에서 **해당 자리를 선택하고 그 자리에 오는 값을 찾는 것**이라고 생각하시면 편합니다.
 
 <br>
 

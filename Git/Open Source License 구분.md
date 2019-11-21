@@ -1,0 +1,64 @@
+# Open Source License 구분
+
+*Assembled by Ricky (2019-11-21)*
+
+<br>
+
+## 일반적으로 사용하는 라이선스
+
+### 1. BSD 
+
+- 소스코드를 공개하지 않아도 되는 대표적인 라이선스
+- 저작권 명시(고지문)
+- 적용 사례 : Nginx(The BSD 2-Clause License)
+
+### 2. MIT
+
+- MIT에서 해당 대학의 SW 공학도들을 돕기 위해 개발한 라이선스
+- 라이선스 및 저작권 명시(고지문)
+- 적용 사례 : 부트스트랩, Angular.js, Backbone.js, JQuery
+
+### 3. Apache
+
+- 아파치 재단의 모든 SW에 적용되는 라이선스
+
+- BSD 의무사항 + ***특허권(GPL 2.0으로 배포되는 코드와는 결합 불가능)**
+
+  \* Apache 2.0의 특허 보복 조항을 GPL 2.0에서는 보장하지 않아 라이선스충 돌(양립불가능) 
+
+- 적용 사례 : 안드로이드(v2.0), 하둡(v2.0)
+
+<br>
+
+## 주의해야 할 라이선스
+
+### 1. LGPL
+
+- 수정한 소스코드 LGPL로 공개 (Static Linking으로 사용하면 전체 코드 공개)
+- LGPL 2.1 + Apache 2.0 = 결합 방식에 따라 배포 불가능 할 수 있음 
+- 라이선스 및 저작권 명시
+- 적용 사례 : 모질라 파이어폭스(v2.1)
+
+### 2. GPL
+
+- GPL을 사용한 프로젝트를 배포한 경우, 그 프로젝트의 전체 소스코드를 공개해야 함
+- 라이선스 및 저작권 명시
+- 적용 사례 : 리눅스 커널(v2.0)
+
+### 3. AGPL
+
+- AGPL 소스코드를 이용한 소프트웨어 전체 AGPL로 공개 **(웹 서비스 포함)**
+
+- 라이선스 및 저작권 명시
+- 적용 사례 : 몽고 DB(v3.0)
+  - Database Server and Tools : AGPL 3.0
+  - Drivers : Apache 2.0
+
+<br>
+
+## Reference & Addtional Resources
+
+- https://www.slideshare.net/ifkakao/ss-113145564?from_action=save 
+
+---
+

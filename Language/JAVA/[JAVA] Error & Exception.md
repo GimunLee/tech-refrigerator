@@ -67,16 +67,12 @@ Error는 시스템 레벨에서 발생하여, 개발자가 어떻게 조치할 �
 
 ## Exception의 2가지 종류
 
-1. Checked Exception 
-
-   예외처리가 필수이며, 처리하지 않으면 컴파일되지 않습니다. JVM 외부와 통신(네트워크, 파일시스템 등)할 때 주로 쓰입니다.
+1. Checked Exception : 예외처리가 필수이며, 처리하지 않으면 컴파일되지 않습니다. JVM 외부와 통신(네트워크, 파일시스템 등)할 때 주로 쓰입니다.
 
    - RuntimeException 이외에 있는 모든 예외
    - IOException, SQLException 등
 
-2. Unchecked Exception
-
-   컴파일 때 체크되지 않고, Runtime에 발생하는 Exception을 말합니다.
+2. Unchecked Exception : 컴파일 때 체크되지 않고, Runtime에 발생하는 Exception을 말합니다.
 
    - RuntimeException 하위의 모든 예외
    - NullPointerException, IndexOutOfBoundException 등
@@ -106,14 +102,12 @@ Error는 시스템 레벨에서 발생하여, 개발자가 어떻게 조치할 �
 
 <br>
 
-- 
-
 ## Exception Handling
 
 JAVA에서 모든 예외가 발생하면 (XXX)Exception 객체를 생성합니다. 예외를 처리하는 방법에는 크게 2가지가 있습니다.
 
-- 직접 try ~ catch 를 이용해서 예외에 대한 최종적인 책임을 지고 처리하는 방식
-- throws Exception 을 이용해서 발생한 예외의 책임을 호출하는 쪽이 책임지도록 하는 방식 (주로 호출하는 쪽에 예외를 보고할 때 사용합니다.)
+1. 직접 try ~ catch 를 이용해서 예외에 대한 최종적인 책임을 지고 처리하는 방식
+2. throws Exception 을 이용해서 발생한 예외의 책임을 호출하는 쪽이 책임지도록 하는 방식 (주로 호출하는 쪽에 예외를 보고할 때 사용합니다.)
 
 다른 메소드의 일부분으로 동작하는 경우엔 던지는 것을 추천합니다.
 

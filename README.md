@@ -14,7 +14,7 @@
 
 ## 🥗 Language
 - ### 🥬 JAVA 
-  - [[JAVA] 문자열 클래스](https://github.com/GimunLee/tech-encyclopedia/blob/master/Language/JAVA/%5BJAVA%5D%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4.md#java-%EB%AC%B8%EC%9E%90%EC%97%B4-%ED%81%B4%EB%9E%98%EC%8A%A4) 
+  - [[JAVA] 문자열 클래스](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%5BJAVA%5D%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4.md#java-%EB%AC%B8%EC%9E%90%EC%97%B4-%ED%81%B4%EB%9E%98%EC%8A%A4) 
   - [[JAVA] 동작 원리](https://github.com/GimunLee/tech-encyclopedia/blob/master/Language/JAVA/%5BJAVA%5D%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md#java-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC) 
   - [[JAVA] Garbage Collection](https://github.com/GimunLee/tech-encyclopedia/blob/master/Language/JAVA/%5BJAVA%5D%20Garbage%20Collection.md#java-garbage-collection) 
   - [[JAVA] Primitive type & Reference type](https://github.com/GimunLee/tech-encyclopedia/blob/master/Language/JAVA/%5BJAVA%5D%20Primitive%20type%20%26%20Reference%20type.md#java-primitive-type--reference-type)

@@ -58,6 +58,7 @@
 
 ## Reference & Addtional Resources
 
+- [오픈소스를 사용하고 준비하는 개발자를 위한 가이드]()
 - https://www.slideshare.net/ifkakao/ss-113145564?from_action=save 
 
 ---

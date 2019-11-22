@@ -164,5 +164,3 @@ Y축은 할당된 바이트의 수이고 X축은 바이트가 할당될 때의 �
 - https://advenoh.tistory.com/14 
 - https://itmining.tistory.com/24#recentComments 
 
----
-

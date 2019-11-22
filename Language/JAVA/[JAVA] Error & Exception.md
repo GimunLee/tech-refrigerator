@@ -167,10 +167,6 @@ Exception in thread "main" java.lang.ArithmeticException: / by zero
 -  https://movefast.tistory.com/12?category=765934 
 -  https://sjh836.tistory.com/122
 
----
-
-
-
 
 
 

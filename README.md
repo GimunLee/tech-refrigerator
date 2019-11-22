@@ -1,8 +1,8 @@
 # tech-refrigerator 🛒
 
-####  📢 냉장고에 `기술`은 우리가 채워넣을게요. 여러분은 마음껏 꺼내드세요. 👐🏻
+###  📢 냉장고에 `기술`은 우리가 채워넣을게요. 여러분은 마음껏 꺼내드세요. 👐🏻
 
-#### Collaborator 👉🏻 [Anna](https://github.com/ahlim721), [Ricky](https://github.com/GimunLee) 👈🏻
+### Collaborator 👉🏻 [Anna](https://github.com/ahlim721), [Ricky](https://github.com/GimunLee) 👈🏻
 
 <br>
 

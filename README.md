@@ -35,7 +35,7 @@
 
 ## 🍇 Git
 
-- [Open Source License 구분]()
+- [Open Source License 구분](https://github.com/GimunLee/tech-refrigerator/blob/master/Git/Open%20Source%20License%20%EA%B5%AC%EB%B6%84.md#open-source-license-%EA%B5%AC%EB%B6%84)
 
 <br>
 

@@ -33,6 +33,12 @@
 
 <br>
 
+## 🍇 Git
+
+- [Open Source License 구분]()
+
+<br>
+
 ## 🍊Operating System
 
 - ### Lecture

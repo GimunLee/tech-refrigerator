@@ -1,3 +1,5 @@
+<img src="./resources/tech-refrigerator-logo.png">
+
 # tech-refrigerator 🛒
 
 ###  📢 냉장고에 `기술`은 우리가 채워넣을게요. 여러분은 마음껏 꺼내드세요. 👐🏻
@@ -7,8 +9,6 @@
 <br>
 
 🤢 **상한 기술은 이슈로 알려주세요.** 🙇‍♂️
-
----
 
 <br>
 

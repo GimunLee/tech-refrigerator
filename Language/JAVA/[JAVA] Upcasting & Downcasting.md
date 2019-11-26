@@ -130,5 +130,3 @@ Child child = (Child) new Parent("부모값 채우기");
 -  https://mommoo.tistory.com/41 
 -  https://mommoo.tistory.com/51 
 
----
-

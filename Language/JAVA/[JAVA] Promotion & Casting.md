@@ -98,5 +98,3 @@ int result = intValue + (int) doubleValue;
 -  https://stage-loving-developers.tistory.com/8?category=257686 
 -  https://stage-loving-developers.tistory.com/8 
 
----
-

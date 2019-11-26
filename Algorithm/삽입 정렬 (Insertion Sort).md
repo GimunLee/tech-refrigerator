@@ -86,6 +86,8 @@ void insertionSort(int[] arr)
 - **안정 정렬(Stable Sort)** 입니다.
 - Selection Sort나 Bubble Sort과 같은 O(n^2) 알고리즘에 비교하여 상대적으로 빠릅니다.
 
+<br>
+
 ## 단점
 
 - 평균과 최악의 시간복잡도가 O(n^2)으로 비효율적입니다.
@@ -105,6 +107,4 @@ Selection Sort와 Insertion Sort는 k번째 반복 이후, 첫번째 k 요소가
 - [https://ko.wikipedia.org/wiki/%EC%82%BD%EC%9E%85_%EC%A0%95%EB%A0%AC](https://ko.wikipedia.org/wiki/삽입_정렬) 
 - https://jinhyy.tistory.com/9
 - https://zeddios.tistory.com/20#recentComments 
-
----
 

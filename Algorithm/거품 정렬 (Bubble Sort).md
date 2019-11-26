@@ -75,6 +75,8 @@ void bubbleSort(int[] arr) {
 - 정렬하고자 하는 배열 안에서 교환하는 방식이므로, 다른 메모리 공간을 필요로 하지 않습니다. => 제자리 정렬(in-place sorting)
 - 안정 정렬(Stable Sort) 입니다.
 
+<br>
+
 ## 단점
 
 - 시간복잡도가 최악, 최선, 평균 모두 O(n^2)으로, 굉장히 비효율적입니다.
@@ -95,6 +97,6 @@ void bubbleSort(int[] arr) {
 - https://jinhyy.tistory.com/9 
 - https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html 
 
----
+
 
 

@@ -93,6 +93,8 @@ void selectionSort(int[] arr) {
 - 정렬을 위한 비교 횟수는 많지만, Bubble Sort에 비해 실제로 교환하는 횟수는 적기 때문에 많은 교환이 일어나야 하는 자료상태에서 비교적 효율적입니다.
 - Bubble Sort와 마찬가지로 정렬하고자 하는 배열 안에서 교환하는 방식이므로, 다른 메모리 공간을 필요로 하지 않습니다. => 제자리 정렬(in-place sorting)
 
+<br>
+
 ## 단점
 
 - 시간복잡도가 O(n^2)으로, 비효율적입니다.
@@ -112,7 +114,3 @@ Bubble Sort와 유사하지만, 조금 더 빠른 Selection Sort에 대해 알�
 - [https://medium.com/@joongwon/%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EC%B4%88-805391cb088e](https://medium.com/@joongwon/정렬-알고리즘-기초-805391cb088e) 
 - https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html 
 - [https://ko.wikipedia.org/wiki/%EC%84%A0%ED%83%9D_%EC%A0%95%EB%A0%AC](https://ko.wikipedia.org/wiki/선택_정렬) 
-
----
-
-

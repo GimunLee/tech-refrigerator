@@ -16,13 +16,13 @@
 
 ## 🥗 Language
 - ### 🥬 JAVA 
-  - [문자열 클래스]() 
-  - [동작 원리]() 
-  - [Garbage Collection]() 
-  - [Primitive type & Reference type]()
-  - [Promotion & Casting]()
-  - [Upcasting & Downcasting]()
-  - [Error & Exception]()
+  - [문자열 클래스](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4.md#%EB%AC%B8%EC%9E%90%EC%97%B4-%ED%81%B4%EB%9E%98%EC%8A%A4) 
+  - [동작 원리](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md#%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC) 
+  - [Garbage Collection](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Garbage%20Collection.md#garbage-collection) 
+  - [Primitive type & Reference type](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Primitive%20type%20%26%20Reference%20type.md#primitive-type--reference-type)
+  - [Promotion & Casting](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Promotion%20%26%20Casting.md#promotion--casting)
+  - [Upcasting & Downcasting](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Upcasting%20%26%20Downcasting.md#upcasting--downcasting)
+  - [Error & Exception](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Error%20%26%20Exception.md#error--exception)
 
 <br>
 

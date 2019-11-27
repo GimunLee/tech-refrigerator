@@ -1,4 +1,4 @@
-# [JAVA] Garbage Collection
+# Garbage Collection
 
 *Assembled by Ricky (2019-10-28)*
 

@@ -1,4 +1,4 @@
-# [JAVA] Upcasting & Downcasting
+# Upcasting & Downcasting
 
 *Assembled by Ricky (2019-11-19)*
 

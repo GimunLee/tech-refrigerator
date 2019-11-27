@@ -1,4 +1,4 @@
-# [JAVA] Error & Exception
+# Error & Exception
 
 *Assembled by Ricky (2019-11-19)*
 

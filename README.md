@@ -1,18 +1,18 @@
 <img src="./resources/tech-refrigerator-logo.png">
 
-<br>
+<br/>
 
 ###  📢 냉장고에 `기술`은 우리가 채워넣을게요. 여러분은 마음껏 꺼내드세요. 👐🏻
 
 ### Collaborator 👉🏻 [Anna](https://github.com/ahlim721), [Ricky](https://github.com/GimunLee) 👈🏻
 
-<br>
+<br/>
 
 🤢 **상한 기술은 `Issue`나 `Pull Request`로 알려주세요.** 🙇‍♂️
 
-<br>
+<br/>
 
-<br>
+<br/>
 
 ## 🥗 Language
 - ### 🥬 JAVA 
@@ -24,7 +24,7 @@
   - [Upcasting & Downcasting](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Upcasting%20%26%20Downcasting.md#upcasting--downcasting)
   - [Error & Exception](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Error%20%26%20Exception.md#error--exception)
 
-<br>
+<br/>
 
 ## 🍎 Algorithm
 
@@ -41,13 +41,20 @@
 
   * [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Singleton%20Pattern.md#%EF%B8%8F-singleton-pattern)
 
-<br>
+<br/>
+
+## 🍉 Web
+
+- [서블릿 (Servlet)]()
+- [JSP (JAVA Server Page)]()
+
+<br/>
 
 ## 🍇 Git
 
 - [Open Source License 구분](https://github.com/GimunLee/tech-refrigerator/blob/master/Git/Open%20Source%20License%20%EA%B5%AC%EB%B6%84.md#open-source-license-%EA%B5%AC%EB%B6%84)
 
-<br>
+<br/>
 
 ## 🍊Operating System
 
@@ -59,4 +66,4 @@
   - [04장. 쓰레드](https://github.com/GimunLee/tech-refrigerator/blob/master/Operating%20System/Lecture/04%EC%9E%A5.%20%EC%93%B0%EB%A0%88%EB%93%9C.md#04%EC%9E%A5-%EC%93%B0%EB%A0%88%EB%93%9C) 
   - [05장. 병행성(상호배제와 동기화)](https://github.com/GimunLee/tech-refrigerator/blob/master/Operating%20System/Lecture/05%EC%9E%A5.%20%EB%B3%91%ED%96%89%EC%84%B1(%EC%83%81%ED%98%B8%EB%B0%B0%EC%A0%9C%EC%99%80%20%EB%8F%99%EA%B8%B0%ED%99%94).md#05%EC%9E%A5-%EB%B3%91%ED%96%89%EC%84%B1%EC%83%81%ED%98%B8%EB%B0%B0%EC%A0%9C%EC%99%80-%EB%8F%99%EA%B8%B0%ED%99%94)
 
-<br>
+<br/>

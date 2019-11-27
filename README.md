@@ -45,8 +45,8 @@
 
 ## 🍉 Web
 
-- [서블릿 (Servlet)]()
-- [JSP (JAVA Server Page)]()
+- [서블릿 (Servlet)](https://github.com/GimunLee/tech-refrigerator/blob/master/Web/%EC%84%9C%EB%B8%94%EB%A6%BF%20(Servlet).md#%EC%84%9C%EB%B8%94%EB%A6%BF-servlet)
+- [JSP (JAVA Server Page)](https://github.com/GimunLee/tech-refrigerator/blob/master/Web/JSP%20(JAVA%20Server%20Page).md#jsp-java-server-page)
 
 <br/>
 

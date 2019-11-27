@@ -1,4 +1,4 @@
-# Singleton Pattern
+# 🍐☝️Singleton Pattern
 
 *Assembled by Anna (2019-11-21)*
 
@@ -24,7 +24,7 @@
 
 ## Singleton 구현과 사용
 
-#### Singleton 구현 방법
+### Singleton 구현 방법
 
 Singleton을 간단히 구현하면 다음과 같이 나타낼 수 있습니다.
 
@@ -57,9 +57,7 @@ public class Singleton {
    2. 생성되지 않았다면, instance에 Singleton 객체를 생성하여 넣어줍니다.
    3. instance를 반환합니다.
 
-<br/>
-
-#### Singleton 사용
+### Singleton 사용
 
 외부 클래스에서 다음과 같이 Singleton 객체를 사용할 수 있습니다.
 
@@ -77,9 +75,7 @@ public class AnotherClass {
 
 만약, Multi-thread 환경에서 두 개 이상의 스레드가 getInstance() 함수에 진입한다고 할 때 두 개 이상의 객체가 생성될 수 있습니다.
 
-<br/>
-
-#### 해결방법
+### 해결방법
 
 1. **미리 인스턴스를 생성하는 방법.**
 

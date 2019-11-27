@@ -35,6 +35,14 @@
 
 <br>
 
+## 🍐 디자인 패턴
+
+* ##### 생성(Creational) 패턴
+
+  * [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design Pattern/README.md#-design-pattern)
+
+<br>
+
 ## 🍇 Git
 
 - [Open Source License 구분](https://github.com/GimunLee/tech-refrigerator/blob/master/Git/Open%20Source%20License%20%EA%B5%AC%EB%B6%84.md#open-source-license-%EA%B5%AC%EB%B6%84)

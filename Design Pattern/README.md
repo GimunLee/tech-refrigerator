@@ -31,7 +31,7 @@ GoF (Gang of Four) 라고 불리는 4명의 개발자가 23가지의 디자인 �
   * 빌더 (Builder)
   * 팩토리 메소드 (Factory Method)
   * 프로토타입 (Proto)
-  * [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Singleton%20Pattern.md)
+  * [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/tree/master/Design%20Pattern#-design-pattern)
     
 
 * ##### 구조(Structural) 패턴

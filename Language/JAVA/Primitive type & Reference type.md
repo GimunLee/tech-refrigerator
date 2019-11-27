@@ -1,4 +1,4 @@
-# [JAVA] Primitive type & Reference type
+# Primitive type & Reference type
 
 *Assembled by Ricky (2019-11-19)*
 

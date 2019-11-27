@@ -1,4 +1,4 @@
-# [JAVA] Promotion & Casting
+# Promotion & Casting
 
 *Assembled by Ricky (2019-11-19)*
 

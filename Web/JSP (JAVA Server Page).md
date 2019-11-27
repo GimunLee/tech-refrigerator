@@ -2,6 +2,13 @@
 
 *Assembled by Ricky (2019-11-07)*
 
+<br/>
+
+## Goal
+
+- JSP에 대해 설명할 수 있다.
+- JSP 동작 과정에 대해 설명할 수 있다.
+
 <br>
 
 ## JSP란?

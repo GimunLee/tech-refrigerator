@@ -1,4 +1,4 @@
-# 🍐☝️Singleton Pattern
+# 🍐☝️ Singleton Pattern
 
 *Assembled by Anna (2019-11-21)*
 

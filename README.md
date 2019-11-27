@@ -39,7 +39,7 @@
 
 * ##### 생성(Creational) 패턴
 
-  * [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design Pattern/README.md#-design-pattern)
+  * [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/tree/master/Design%20Pattern#-design-pattern)
 
 <br>
 

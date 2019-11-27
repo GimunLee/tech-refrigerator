@@ -1,6 +1,6 @@
 # 🍐 Design Pattern
 
-*Assembled by Anna (2019-11-21)*
+*Assembled by Anna (2019-11-27)*
 
 <br/>
 

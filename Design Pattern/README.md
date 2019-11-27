@@ -13,7 +13,7 @@
 
 ## Why Design Pattern? 
 
-~~기초 설계가 제대로 되지 않은 `클래스 구조의 개발`~~을 하다보면 제대로 된 객체지향적인 개발을 하지 못하게 됩니다. `Design Pattern`은 이러한 상황을 미연에 방지하고자 객체지향적인 클래스 설계 기법을 모아놓은 것입니다.
+기초 설계가 제대로 되지 않은 `클래스 구조의 개발`을 하다보면 제대로 된 객체지향적인 개발을 하지 못하게 됩니다. `Design Pattern`은 이러한 상황을 미연에 방지하고자 객체지향적인 클래스 설계 기법을 모아놓은 것입니다.
 
 <br/>
 
@@ -31,7 +31,7 @@ GoF (Gang of Four) 라고 불리는 4명의 개발자가 23가지의 디자인 �
   * 빌더 (Builder)
   * 팩토리 메소드 (Factory Method)
   * 프로토타입 (Proto)
-  * [싱글턴 (Singleton)](./Singleton.md)
+  * [싱글턴 (Singleton)](https://github.com/ahlim721/tech-refrigerator/blob/master/Design%20Pattern/Singleton%20Pattern.md)
     
 
 * ##### 구조(Structural) 패턴

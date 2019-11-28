@@ -28,7 +28,7 @@
 
 ##  🍕 Software Engineering
 
-- [Monolithic Architecture]()
+- [Monolithic Architecture](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/Monolithic%20Architecture.md#monolithic-architecture)
 - [Microservice Architecture]()
 
 <br/>

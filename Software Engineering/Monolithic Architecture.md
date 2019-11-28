@@ -39,37 +39,37 @@ Microservice Architecture의 각광에 따라 Microservice Architecture가 아�
 
 <br/>
 
-## 장점
+## Monolithic Architecture의 장점
 
-**개발의 용이성**
+- **개발의 용이성**
 
-구조가 단순하기 때문에 개발이 용이하고, 크지 않은 프로젝트의 경우 오히려 모듈별로 분리하고 나누는 것은 코드의 최적화 및 구현에 방해가 되는 경우가 많습니다.  
+  구조가 단순하기 때문에 개발이 용이하고, 크지 않은 프로젝트의 경우 오히려 모듈별로 분리하고 나누는 것은 코드의 최적화 및 구현에 방해가 되는 경우가 많습니다.  
 
-**테스트와 배포의 용이성**
+- **테스트와 배포의 용이성**
 
-모든 코드가 하나의 묶음으로 구성되어 있기 때문에 배포도 매우 간편해지고, 통합 시나리오 테스트를 수행하기에도 수월합니다.
+  모든 코드가 하나의 묶음으로 구성되어 있기 때문에 배포도 매우 간편해지고, 통합 시나리오 테스트를 수행하기에도 수월합니다.
 
 <br/>
 
-## 단점
+## Monolithic Architecture의 단점
 
-**부분적 스케일아웃의 어려움**
+- **부분적 스케일아웃의 어려움**
 
-일반적으로 `Microservice Architecture의 Scalability 복잡도가 N+M` 이라면 `Monolithic Architecture의 복잡도는 N*M` 형태로 증가하기 때문에 컨테이너의 과부하와 배포 및 스케일링의 어려움을 겪게 됩니다.
+  일반적으로 `Microservice Architecture의 Scalability 복잡도가 N+M` 이라면 `Monolithic Architecture의 복잡도는 N*M` 형태로 증가하기 때문에 컨테이너의 과부하와 배포 및 스케일링의 어려움을 겪게 됩니다.
 
-**배포 시간의 증가**
+- **배포 시간의 증가**
 
-최근 클라우드 환경이 각광받으면서 두드러지게된 단점으로 하나의 모듈을 수정하기 위해서는 전체 어플리케이션의 배포가 수반되며 서버 기동, 빌드 및 배포 시간이 오래걸린다는 점이 있습니다.
+  최근 클라우드 환경이 각광받으면서 두드러지게된 단점으로 하나의 모듈을 수정하기 위해서는 전체 어플리케이션의 배포가 수반되며 서버 기동, 빌드 및 배포 시간이 오래걸린다는 점이 있습니다.
 
-**안정성의 감소**
+- **안정성의 감소**
 
-기술 스택의 선택폭이 좁아지며 많은 문제를 해결하기 위해 보다 강력하고 탄탄한 기술력이 요구됩니다. 이는 내부 구성요소들 간의 강력한 Dependency 문제 때문입니다. 한 모듈의 선택은 다른 외부 모듈에서 버그를 초래할 수 있습니다. 따라서 사용하고자 하는 프로젝트의 큰 그림이 아키텍처 구성 단계에서 그려져 있어야 문제를 최소화할 수 있습니다.
+  기술 스택의 선택폭이 좁아지며 많은 문제를 해결하기 위해 보다 강력하고 탄탄한 기술력이 요구됩니다. 이는 내부 구성요소들 간의 강력한 Dependency 문제 때문입니다. 한 모듈의 선택은 다른 외부 모듈에서 버그를 초래할 수 있습니다. 따라서 사용하고자 하는 프로젝트의 큰 그림이 아키텍처 구성 단계에서 그려져 있어야 문제를 최소화할 수 있습니다.
 
 <br/>
 
 ## Reference & Additional Resources
 
-- [http://guruble.com/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4microservice-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EA%B7%B8%EA%B2%83%EC%9D%B4-%EB%AD%A3%EC%9D%B4-%EC%A4%91%ED%97%8C%EB%94%94/](http://guruble.com/마이크로서비스microservice-아키텍처-그것이-뭣이-중헌디/)
+- [마이크로서비스microservice-아키텍처-그것이-뭣이-중헌디/](http://guruble.com/%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%84%9C%EB%B9%84%EC%8A%A4microservice-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EA%B7%B8%EA%B2%83%EC%9D%B4-%EB%AD%A3%EC%9D%B4-%EC%A4%91%ED%97%8C%EB%94%94/) 
 - [https://jins-dev.tistory.com/entry/%EC%A0%84%ED%86%B5%EC%9D%98-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EB%AA%A8%EB%8D%B8-%EB%AA%A8%EB%86%80%EB%A6%AC%EC%8B%9DMonolithic-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98](https://jins-dev.tistory.com/entry/전통의-소프트웨어-아키텍처-모델-모놀리식Monolithic-아키텍처)
 - https://www.popit.kr/why-microservice/ 
 - http://www.moreagile.net/2014/10/microservices.html 

@@ -7,7 +7,7 @@
 ## Goal
 
 - Monolithic Architecture에 대해 설명할 수 있다.
-- Monolithic Architecture의 문제점에 대해 설명할 수 있다.
+- Monolithic Architecture의 장단점에 대해 설명할 수 있다.
 
 <br/>
 

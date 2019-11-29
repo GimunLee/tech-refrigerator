@@ -18,6 +18,7 @@
 - ### 🥬 JAVA 
   - [문자열 클래스](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4.md#%EB%AC%B8%EC%9E%90%EC%97%B4-%ED%81%B4%EB%9E%98%EC%8A%A4) 
   - [동작 원리](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md#%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC) 
+  - [JVM & 메모리구조](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/JVM%20%26%20%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B5%AC%EC%A1%B0.md#jvm--%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0)
   - [Garbage Collection](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Garbage%20Collection.md#garbage-collection) 
   - [Primitive type & Reference type](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Primitive%20type%20%26%20Reference%20type.md#primitive-type--reference-type)
   - [Promotion & Casting](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Promotion%20%26%20Casting.md#promotion--casting)

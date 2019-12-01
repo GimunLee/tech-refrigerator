@@ -1,6 +1,6 @@
 # 거품 정렬 (Bubble Sort)
 
-*Assembled by Ricky (2019-10-29)*
+*Assembled by GimunLee (2019-10-29)*
 
 <br>
 

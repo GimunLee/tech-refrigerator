@@ -1,6 +1,6 @@
 # JVM & 메모리 구조
 
-*Assembled by Anna (2019-11-29)*
+*Assembled by GimunLee (2019-11-29)*
 
 <br/>
 

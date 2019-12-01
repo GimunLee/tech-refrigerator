@@ -1,6 +1,6 @@
 ## 선택 정렬 (Selection Sort)
 
-*Assembled by Ricky (2019-10-29)*
+*Assembled by GimunLee (2019-10-29)*
 
 <br>
 

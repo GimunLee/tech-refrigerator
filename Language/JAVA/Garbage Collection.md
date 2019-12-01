@@ -1,6 +1,6 @@
 # Garbage Collection
 
-*Assembled by Ricky (2019-10-28)*
+*Assembled by GimunLee (2019-10-28)*
 
 <br>
 

@@ -1,6 +1,6 @@
 # Promotion & Casting
 
-*Assembled by Ricky (2019-11-19)*
+*Assembled by GimunLee (2019-11-19)*
 
 <br>
 

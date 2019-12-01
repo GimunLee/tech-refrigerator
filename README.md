@@ -10,7 +10,7 @@
 
 🤢 **상한 기술은 `Issue`나 `Pull Request`로 알려주세요.** 🙇‍♂️
 
-**🧐 기여해주신 분들 : [Donghoon759](https://github.com/Donghoon759) 🤝**
+🧐 **기여해주신 분들 : [Donghoon759](https://github.com/Donghoon759)** 🤝
 
 <br/>
 

@@ -1,6 +1,6 @@
 # 삽입 정렬 (Insertion Sort)
 
-*Assembled by Ricky (2019-10-30)*
+*Assembled by GimunLee (2019-10-30)*
 
 <br>
 

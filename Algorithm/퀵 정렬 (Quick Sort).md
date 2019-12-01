@@ -1,6 +1,6 @@
 ## 퀵 정렬 (Quick Sort)
 
-*Assembled by Ricky (2019-11-14)*
+*Assembled by GimunLee (2019-11-14)*
 
 <br>
 

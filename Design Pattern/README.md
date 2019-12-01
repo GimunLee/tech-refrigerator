@@ -46,6 +46,7 @@ GoF (Gang of Four) 라고 불리는 4명의 개발자가 23가지의 디자인 �
   * 플라이웨이트 (Flyweight)
   * 프록시 (Proxy)
     
+
 <br/>
 
 * ##### 행위(Behavior) 패턴

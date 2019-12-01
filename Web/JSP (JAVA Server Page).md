@@ -1,6 +1,6 @@
 # JSP (JAVA Server Page)
 
-*Assembled by Ricky (2019-11-07)*
+*Assembled by GimunLee (2019-11-07)*
 
 <br/>
 

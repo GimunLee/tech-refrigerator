@@ -1,6 +1,6 @@
 # Monolithic Architecture
 
-*Assembled by Ricky (2019-11-28)*
+*Assembled by GimunLee (2019-11-28)*
 
 <br/>
 

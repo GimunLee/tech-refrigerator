@@ -1,6 +1,6 @@
 # Open Source License 구분
 
-*Assembled by Ricky (2019-11-21)*
+*Assembled by GimunLee (2019-11-21)*
 
 <br>
 

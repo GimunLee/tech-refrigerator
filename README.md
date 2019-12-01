@@ -4,11 +4,13 @@
 
 ###  📢 냉장고에 `기술`은 우리가 채워넣을게요. 여러분은 마음껏 꺼내드세요. 👐🏻
 
-### Collaborator 👉🏻 [Anna](https://github.com/ahlim721), [Ricky](https://github.com/GimunLee) 👈🏻
+#### Collaborator 👉🏻 [Anna](https://github.com/ahlim721), [Ricky](https://github.com/GimunLee) 👈🏻
 
 <br/>
 
 🤢 **상한 기술은 `Issue`나 `Pull Request`로 알려주세요.** 🙇‍♂️
+
+**🧐 기여해주신 분들 : [Donghoon759](https://github.com/Donghoon759) 🤝**
 
 <br/>
 

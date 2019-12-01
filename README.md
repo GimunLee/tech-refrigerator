@@ -29,19 +29,19 @@
 
 <br/>
 
-##  🍕 Software Engineering
-
-- [Monolithic Architecture](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/Monolithic%20Architecture.md#monolithic-architecture)
-- [Microservice Architecture](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/Microservice%20Architecture.md#microservice-architecture)
-
-<br/>
-
 ## 🍎 Algorithm
 
 - [거품 정렬 (Bubble Sort)](https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/%EA%B1%B0%ED%92%88%20%EC%A0%95%EB%A0%AC%20(Bubble%20Sort).md#%EA%B1%B0%ED%92%88-%EC%A0%95%EB%A0%AC-bubble-sort)
 - [선택 정렬 (Selection Sort)](https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/%EC%84%A0%ED%83%9D%20%EC%A0%95%EB%A0%AC%20(Selection%20Sort).md#%EC%84%A0%ED%83%9D-%EC%A0%95%EB%A0%AC-selection-sort) 
 - [삽입 정렬 (Insertion Sort)](https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/%EC%82%BD%EC%9E%85%20%EC%A0%95%EB%A0%AC%20(Insertion%20Sort).md#%EC%82%BD%EC%9E%85-%EC%A0%95%EB%A0%AC-insertion-sort)
 - [퀵 정렬 (Quick Sort)](https://github.com/GimunLee/tech-refrigerator/blob/master/Algorithm/%ED%80%B5%20%EC%A0%95%EB%A0%AC%20(Quick%20Sort).md#%ED%80%B5-%EC%A0%95%EB%A0%AC-quick-sort)
+
+<br/>
+
+##  🍕 Software Engineering
+
+- [Monolithic Architecture](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/Monolithic%20Architecture.md#monolithic-architecture)
+- [Microservice Architecture](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/Microservice%20Architecture.md#microservice-architecture)
 
 <br/>
 

@@ -53,11 +53,11 @@ GoF (Gang of Four) 라고 불리는 4명의 개발자가 23가지의 디자인 �
 
   > 알고리즘이나 책임 분배에 관련된 패턴으로 객체 사이의 역할을 분담하며, 결합도를 최소화 하는 것에 중점을 둡니다.
 
+  * [스트래티지 (Strategy)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Strategy%20Pattern.md#-strategy-pattern)
   * 이터레이터 (Iterator)
   * 커맨드 (Command)
   * 옵저버 (Observer)
   * 스테이트 (State)
-  * 스트레티지 (Strategy)
   * 템플릿 메서드 (Template Method)
   * 책임 연쇄, 인터프리터, 미디에이터, 메멘토, 비지터
 

@@ -51,6 +51,7 @@
   * [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Singleton%20Pattern.md#%EF%B8%8F-singleton-pattern)
 * ##### 행위(Behavior) 패턴
   * [스트래티지 (Strategy)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Strategy%20Pattern.md#-strategy-pattern)
+  * [템플릿 메서드 (Template Method)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Template%20Method%20Pattern.md#-template-method-pattern)
   
 <br/>
 

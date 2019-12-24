@@ -1,9 +1,5 @@
 <img src="./resources/tech-refrigerator-logo.png">
 
-<br/>
-
-## tech-refrigerator
-
 [`Anna`](https://github.com/ahlim721)와 [`GimunLee`](https://github.com/GimunLee)가 함께 개발자에게 필요한 기술을 정리하는 저장소입니다. 
 
 냉장고에 `기술`은 우리가 채워넣을게요. 여러분은 마음껏 꺼내드세요. 

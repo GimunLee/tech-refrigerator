@@ -80,11 +80,3 @@ tech-refrigerator는 [`Anna`](https://github.com/ahlim721)와 [`GimunLee`](https
   - [05장. 병행성(상호배제와 동기화)](https://github.com/GimunLee/tech-refrigerator/blob/master/Operating%20System/Lecture/05%EC%9E%A5.%20%EB%B3%91%ED%96%89%EC%84%B1(%EC%83%81%ED%98%B8%EB%B0%B0%EC%A0%9C%EC%99%80%20%EB%8F%99%EA%B8%B0%ED%99%94).md#05%EC%9E%A5-%EB%B3%91%ED%96%89%EC%84%B1%EC%83%81%ED%98%B8%EB%B0%B0%EC%A0%9C%EC%99%80-%EB%8F%99%EA%B8%B0%ED%99%94)
 
 <br/>
-
----
-
-## 🤝 Contributors
-
-- [Donghoon759](https://github.com/Donghoon759)
-
-- [DongOnee](https://github.com/DongOnee) 

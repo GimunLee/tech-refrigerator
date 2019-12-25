@@ -1,10 +1,10 @@
 <img src="./resources/tech-refrigerator-logo.png">
 
-[`Anna`](https://github.com/ahlim721)와 [`GimunLee`](https://github.com/GimunLee)가 함께 개발자에게 필요한 기술을 정리하는 저장소입니다. 
+개발자에게 필요하고 유용한 양식들을 모아놓은 기술 냉장고입니다. [`Anna`](https://github.com/ahlim721)와 [`GimunLee`](https://github.com/GimunLee)가 기본적인 지식부터 심화 지식까지 공부하며 채워 넣을게요. 우리의 냉장고가 여러분의 기술 습득, 면접, 스터디 등에 많은 도움이 되기를 바라요.
 
-냉장고에 `기술`은 우리가 채워넣을게요. 여러분은 마음껏 꺼내드세요. 
+📝 공부하면서 정리하는 기술 저장소입니다. 여러분들과 소통하며 채워가고 싶어요. 😀
 
-상한 기술은 `Issue`나 `Pull Request`로 알려주세요. 🙇‍♂️
+✔ 상한 기술은 `Issue`나 `Pull Request`로 알려주세요.
 
 🤝 기여해주신 분들 : [Donghoon759](https://github.com/Donghoon759) | [DongOnee](https://github.com/DongOnee)
 

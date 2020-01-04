@@ -20,7 +20,8 @@
   - [Promotion & Casting](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Promotion%20%26%20Casting.md#promotion--casting)
   - [Upcasting & Downcasting](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Upcasting%20%26%20Downcasting.md#upcasting--downcasting)
   - [Error & Exception](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Error%20%26%20Exception.md#error--exception)
-
+  - [제네릭(Generic)](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EC%A0%9C%EB%84%A4%EB%A6%AD(Generic).md#%EC%A0%9C%EB%84%A4%EB%A6%ADgeneric)
+  
 <br/>
 
 ## 🍎 Algorithm

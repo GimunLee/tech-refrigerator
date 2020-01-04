@@ -57,15 +57,15 @@
 
 <br/>
 
-## 🍇 Git
-
-- [Open Source License 구분](https://github.com/GimunLee/tech-refrigerator/blob/master/Git/Open%20Source%20License%20%EA%B5%AC%EB%B6%84.md#open-source-license-%EA%B5%AC%EB%B6%84)
-
-<br/>
-
 ## 🥞 Network
 
 - [흐름제어 & 혼잡제어 & 오류제어](https://github.com/GimunLee/tech-refrigerator/blob/master/Network/%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4%20%26%20%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4%20%26%20%EC%98%A4%EB%A5%98%EC%A0%9C%EC%96%B4.md#%ED%9D%90%EB%A6%84%EC%A0%9C%EC%96%B4--%ED%98%BC%EC%9E%A1%EC%A0%9C%EC%96%B4--%EC%98%A4%EB%A5%98%EC%A0%9C%EC%96%B4)
+
+<br/>
+
+## 🥑 Open Source
+
+- [Open Source License 구분](https://github.com/GimunLee/tech-refrigerator/blob/master/Open%Soruce/Open%20Source%20License%20%EA%B5%AC%EB%B6%84.md#open-source-license-%EA%B5%AC%EB%B6%84)
 
 <br/>
 

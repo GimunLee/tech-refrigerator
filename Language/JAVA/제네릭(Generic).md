@@ -4,6 +4,16 @@
 
 <br/>
 
+## Goal
+
+- 제네릭에 대해 설명할 수 있다.
+
+- 제네릭 사용 이점에 대해 설명할 수 있다.
+- 제네릭 타입 변수를 제한할 수 있다.
+- 제네릭 와일드 카드에 대해서 설명할 수 있다.
+
+<br/>
+
 ## 제네릭(generic)이란?
 
 자바에서 **제네릭이란 데이터의 타입을 일반화한다(generalize)** 는 것을 의미합니다.
@@ -60,9 +70,7 @@ class MyArray<T> {
 
 위의 예제에서 사용된 'T'를 **타입 변수(type variable)** 라고 하며, 임의의 참조형 타입을 의미합니다.
 
-꼭 'T'뿐만 아니라 어떠한 문자를 사용해도 상관없으며, 여러 개의 타입 변수는 쉼표(,)로 구분하여 명시할 수 있습니다.
-
-타입 변수는 클래스에서뿐만 아니라 메소드의 매개변수나 반환값으로도 사용할 수 있습니다. 
+꼭 'T'뿐만 아니라 어떠한 문자를 사용해도 상관없으며, 여러 개의 타입 변수는 쉼표(,)로 구분하여 명시할 수 있습니다. 타입 변수는 클래스에서뿐만 아니라 메소드의 매개변수나 반환값으로도 사용할 수 있습니다. 
 
 위와 같이 선언된 제네릭 클래스(generic class)를 생성할 때에는 타입 변수 자리에 사용할 실제 타입을 명시해야 합니다.
 
@@ -126,6 +134,20 @@ public class Generic01 {
 ```
 
 위의 예제에서 Cat과 Dog 클래스는 LandAnimal 클래스를 상속받는 자식 클래스이므로, AnimalList<LandAnimal>에 추가할 수 있습니다. 하지만 Sparrow 클래스는 타입이 다르므로 추가할 수 없습니다.
+
+### 참고
+
+제네릭에 쓰인 T V N 등의 알파벳 대문자은 **임의의 알파벳 대문자** 를 사용한 것입니다. 이렇게 제네릭에 알파벳 대문자를 임의로 사용할 수 있지만, 그래도 일종의 약속이 있는데, 주로 아래와 같은 의미로 사용됩니다.
+
+- `E` : Element
+
+- `K` : Key
+
+- `N` : Number
+
+- `T` : Type
+
+- `V` : Value
 
 <br/>
 
@@ -236,14 +258,62 @@ public class CompareMethodEx {
 <? super T>   // T 타입과 T 타입이 상속받은 조상 클래스 타입만을 사용할 수 있음
 ```
 
-<br/>
+###  와일드카드 제한
 
-> 와일드 카드와 일반 T의 차이와 제네릭 메소드에 대해 더 작성할 예정
+API를 잘 살펴보면 `T, E, S, V` 등으로 선언된 것도 있고 `?` 로 선언된 것도 있습니다.  `T`로  선언하는 것과 달리 `?` 로 선언했을 때는 제한이 있습니다. 데이터보다 메소드에 집중할 때 사용됩니다.
+
+### 제네릭 vs 와일드카드
+
+간단하게 말하자면, 아래와 같습니다.
+
+**제네릭** : 지금은 이 타입을 모르지만, 이 타입이 정해지면 그 타입 특성에 맞게 사용하겠다!
+**와일드 카드** : 지금도 이 타입을 모르고, 앞으로도 모를 것이다!
+
+아래에서 예시를 통해, 좀더 자세히 알아보겠습니다.
+
+**`List<?> list `**
+
+- 원소를 꺼내 와서는 Object에 정의되어 있는 기능만 사용하겠다. `equals(), toString(), hashCode() ...`
+- List에 타입이 뭐가 오든 상관 없다. 나는 List 인터페이스에 정의되어 있는 기능만 사용하겠다. `size(), clear() ...` 
+- 단, 타입 파라미터와 결부된 기능은 사용하지 않겠다.  `add(), addAll()`
+
+**``List<T> list``** 
+
+- 원소를 꺼내 와서는 Object에 정의되어 있는 기능만 사용하겠다. `equals(), toString(), hashCode() ...`
+- List에 타입이 뭐가 오든 상관 없다. 나는 List 인터페이스에 정의되어 있는 기능을 사용하고, 타입 파라미터와 결부된 기능도 사용하겠다.
+
+```java
+@Test
+public void sampleCode2() { 
+  List<Integer> integerList = Arrays.asList(1, 2, 3); 
+  printList1(integerList);
+  printList2(integerList);
+} 
+
+static void printList1(List<?> list) { 
+  // 1. 와일드 카드는 list에 담긴 원소에는 전혀 관심이 없기 때문에 원소와 관련된 add 메소드를 사용할 수 없음
+  // 2. 단, null은 들어갈 수 있음
+  list.add(list.get(1)); // 컴파일 실패
+} 
+
+static <T> void printList2(List<T> list) { 
+  // 1. 제네릭은 list에 담긴 원소에 관심을 갖기 때문에 원소와 관련된 add 메소드를 사용할 수 있음 
+  // 2. 당연히 null도 들어갈 수 있음
+  list.add(list.get(1)); // 컴파일 성공 
+}
+
+```
+
+이렇게 보면, 제네릭과 와일드카드가 서로 대조적으로 쓰이는 것 같지만, 많은 API에서는 서로 혼합해서 확장성을 높히는 쪽으로 활용합니다. 
 
 <br/>
 
 ## Reference & Additional Resources
 
+- https://vvshinevv.tistory.com/55
 - http://tcpschool.com/java/java_generic_concept
 - https://ict-nroo.tistory.com/42
+- https://preamtree.tistory.com/138
+
+
 

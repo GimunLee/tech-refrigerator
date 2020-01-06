@@ -11,6 +11,8 @@
 <br/>
 
 ## 🥗 Language
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGimunLee%2Ftech-refrigerator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FGimunLee%2Ftech-refrigerator?ref=badge_shield)
+
 - ### 🥬 JAVA 
   - [문자열 클래스](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4.md#%EB%AC%B8%EC%9E%90%EC%97%B4-%ED%81%B4%EB%9E%98%EC%8A%A4) 
   - [동작 원리](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md#%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC) 
@@ -81,3 +83,7 @@
   - [05장. 병행성(상호배제와 동기화)](https://github.com/GimunLee/tech-refrigerator/blob/master/Operating%20System/Lecture%20Note/05%EC%9E%A5.%20%EB%B3%91%ED%96%89%EC%84%B1(%EC%83%81%ED%98%B8%EB%B0%B0%EC%A0%9C%EC%99%80%20%EB%8F%99%EA%B8%B0%ED%99%94).md#05%EC%9E%A5-%EB%B3%91%ED%96%89%EC%84%B1%EC%83%81%ED%98%B8%EB%B0%B0%EC%A0%9C%EC%99%80-%EB%8F%99%EA%B8%B0%ED%99%94)
 
 <br/>
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FGimunLee%2Ftech-refrigerator.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FGimunLee%2Ftech-refrigerator?ref=badge_large)

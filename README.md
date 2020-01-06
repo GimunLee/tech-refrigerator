@@ -21,6 +21,7 @@
   - [Upcasting & Downcasting](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Upcasting%20%26%20Downcasting.md#upcasting--downcasting)
   - [Error & Exception](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Error%20%26%20Exception.md#error--exception)
   - [제네릭(Generic)](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EC%A0%9C%EB%84%A4%EB%A6%AD(Generic).md#%EC%A0%9C%EB%84%A4%EB%A6%ADgeneric)
+  - [Java 8 Stream](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Java%208%20Stream.md#java-8-stream)
   
 <br/>
 

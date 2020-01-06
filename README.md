@@ -6,7 +6,7 @@
 
 ✔ 상한 기술은 `Issue`나 `Pull Request`로 알려주세요.
 
-🤝 기여해주신 분들 : [Donghoon759](https://github.com/Donghoon759) | [DongOnee](https://github.com/DongOnee)
+🤝 기여해주신 분들 : [Donghoon759](https://github.com/Donghoon759) | [DongOnee](https://github.com/DongOnee) | [HaenaraShin](https://github.com/HaenaraShin)
 
 <br/>
 
@@ -67,7 +67,7 @@
 
 ## 🥑 Open Source
 
-- [Open Source License 구분](https://github.com/GimunLee/tech-refrigerator/blob/master/Open%Soruce/Open%20Source%20License%20%EA%B5%AC%EB%B6%84.md#open-source-license-%EA%B5%AC%EB%B6%84)
+- [오픈소스 라이선스 제대로 알고 ](https://github.com/GimunLee/tech-refrigerator/blob/master/Open%20Source/%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4%20%EC%A0%9C%EB%8C%80%EB%A1%9C%20%EC%95%8C%EA%B3%A0%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md#%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8A%A4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EC%95%8C%EA%B3%A0-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
 
 <br/>
 

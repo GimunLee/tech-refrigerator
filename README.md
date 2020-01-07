@@ -80,7 +80,9 @@
   - [03장. 프로세스 기술 및 제어](https://github.com/GimunLee/tech-refrigerator/blob/master/Operating%20System/Lecture%20Note/03%EC%9E%A5.%20%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B8%B0%EC%88%A0%20%EB%B0%8F%20%EC%A0%9C%EC%96%B4.md#03%EC%9E%A5-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B8%B0%EC%88%A0-%EB%B0%8F-%EC%A0%9C%EC%96%B4) 
   - [04장. 쓰레드](https://github.com/GimunLee/tech-refrigerator/blob/master/Operating%20System/Lecture%20Note/04%EC%9E%A5.%20%EC%93%B0%EB%A0%88%EB%93%9C.md#04%EC%9E%A5-%EC%93%B0%EB%A0%88%EB%93%9C) 
   - [05장. 병행성(상호배제와 동기화)](https://github.com/GimunLee/tech-refrigerator/blob/master/Operating%20System/Lecture%20Note/05%EC%9E%A5.%20%EB%B3%91%ED%96%89%EC%84%B1(%EC%83%81%ED%98%B8%EB%B0%B0%EC%A0%9C%EC%99%80%20%EB%8F%99%EA%B8%B0%ED%99%94).md#05%EC%9E%A5-%EB%B3%91%ED%96%89%EC%84%B1%EC%83%81%ED%98%B8%EB%B0%B0%EC%A0%9C%EC%99%80-%EB%8F%99%EA%B8%B0%ED%99%94)
-  
+
+<br/>
+
 ## 🍭 ETC
 
 - [IntelliJ 단축키 (Mac OS X)](https://github.com/GimunLee/tech-refrigerator/blob/master/ETC/IntelliJ%20%EB%8B%A8%EC%B6%95%ED%82%A4%20(Mac%20OS%20X).md#intellij-%EB%8B%A8%EC%B6%95%ED%82%A4-mac-os-x)

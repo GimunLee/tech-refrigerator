@@ -1,6 +1,6 @@
 # Java Lamda Expression (기초)
 
-*Assembled by GimunLee*
+*Assembled by GimunLee (2020-01-07)*
 
 <br/>
 

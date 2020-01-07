@@ -1,6 +1,6 @@
 # Java 8 Stream
 
-*Assembled by GimunLee*
+*Assembled by GimunLee (2020-01-06)*
 
 <br/>
 

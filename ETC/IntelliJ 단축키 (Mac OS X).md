@@ -32,18 +32,6 @@
 
 <br/>
 
-## Layout
-
-- `⌘(command)` + `1` : Project view
-- `⌘(command)` + `3` : Find view
-- `⌘(command)` + `4` : Run view
-- `⌘(command)` + `6` : TO DO
-- `⌘(command)` + `8` : Hierarchy // `⌃(control)` + `⌥(option)` + `H` 로 메소드 호출을 찾으면 노출됨
-- `⌘(command)` + `9` : Version Control // git, task 관리
-- `⇧(shift)` + `⎋(esc)` : 활성화된(현재 선택된) Layout 닫기
-
-<br/>
-
 ## Refector - 강추
 
 - `⌘(command)` + `⌥(option)` + `M` : 메서드 분리
@@ -107,6 +95,18 @@
   - 만약 review 여부를 물으면 Commit 버튼을 `⇥(tab)` 으로 포커싱 후 `Space` 를 입력
 - `⌥(option)` + `⇧(shift)` + `N` : Task 추가 - `⌘(command)` + `9` 와 연계하면 작업관리 시 편함
 - `⌥(option)` + `⇧(shift)` + `C` : Recent Changes
+
+<br/>
+
+## Layout
+
+- `⌘(command)` + `1` : Project view
+- `⌘(command)` + `3` : Find view
+- `⌘(command)` + `4` : Run view
+- `⌘(command)` + `6` : TO DO
+- `⌘(command)` + `8` : Hierarchy // `⌃(control)` + `⌥(option)` + `H` 로 메소드 호출을 찾으면 노출됨
+- `⌘(command)` + `9` : Version Control // git, task 관리
+- `⇧(shift)` + `⎋(esc)` : 활성화된(현재 선택된) Layout 닫기
 
 <br/>
 

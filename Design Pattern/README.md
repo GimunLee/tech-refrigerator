@@ -21,7 +21,7 @@
 
 GoF (Gang of Four) 라고 불리는 4명의 개발자가 23가지의 디자인 패턴을 구체화하고 용도에 따라 3가지의 영역(생성, 구조, 행위)로 나누었습니다.
 
-#### GoF 디자인 패턴
+### GoF 디자인 패턴
 
 * ##### 생성(Creational) 패턴
 
@@ -29,7 +29,7 @@ GoF (Gang of Four) 라고 불리는 4명의 개발자가 23가지의 디자인 �
   
   * 빌더 (Builder)
   * 팩토리 (Factory)
-    * [팩토리 메소드 (Factory Method)]()
+    * [팩토리 메소드 (Factory Method)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Factory%20Pattern%20(1)%20-%20Factory%20Method%20Pattern.md#-factory-pattern-1---factory-method-pattern)
     * 추상 팩토리 (Abstract Factory)
   * 프로토타입 (Proto)
   * [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Singleton%20Pattern.md#%EF%B8%8F-singleton-pattern)

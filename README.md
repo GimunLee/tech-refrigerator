@@ -12,8 +12,9 @@
 
 ## 🥗 Language
 - ### 🥬 JAVA 
+
   - [문자열 클래스](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EB%AC%B8%EC%9E%90%EC%97%B4%20%ED%81%B4%EB%9E%98%EC%8A%A4.md#%EB%AC%B8%EC%9E%90%EC%97%B4-%ED%81%B4%EB%9E%98%EC%8A%A4) 
-  - [동작 원리](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md#%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC) 
+  - [동작 원리](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md#%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC)
   - [JVM & 메모리구조](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/JVM%20%26%20%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B5%AC%EC%A1%B0.md#jvm--%EB%A9%94%EB%AA%A8%EB%A6%AC-%EA%B5%AC%EC%A1%B0)
   - [Garbage Collection](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Garbage%20Collection.md#garbage-collection) 
   - [Primitive type & Reference type](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Primitive%20type%20%26%20Reference%20type.md#primitive-type--reference-type)
@@ -24,6 +25,7 @@
   - [Java Lamda Expression (기초)](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Java%20Lamda%20Expression%20(%EA%B8%B0%EC%B4%88).md#java-lamda-expression-%EA%B8%B0%EC%B4%88)
   - [Java 8 Stream](https://github.com/GimunLee/tech-refrigerator/blob/master/Language/JAVA/Java%208%20Stream.md#java-8-stream)
   
+
 <br/>
 
 ## 🍎 Algorithm
@@ -49,7 +51,7 @@
   - [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Singleton%20Pattern.md#%EF%B8%8F-singleton-pattern)
   - 팩토리 (Factory)
     - [팩토리 메소드 (Factory Method)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Factory%20Pattern%20(1)%20-%20Factory%20Method%20Pattern.md#-factory-pattern-1---factory-method-pattern)
-    
+  
 - **행위(Behavior) 패턴**
   - [스트래티지 (Strategy)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Strategy%20Pattern.md#-strategy-pattern)
   - [템플릿 메서드 (Template Method)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Template%20Method%20Pattern.md#-template-method-pattern)

@@ -58,7 +58,7 @@ Bounded Context는 독립적으로 서비스 될 때 문제없는 업무 범위�
 
 도메인 모델 정의 시 몇 가지 구현 패턴이 있는데, 일반적으로 사용되는 패턴은 Entity 기반 모델을 정의하는 패턴을 사용하고 있습니다. 기본 패턴에서 정의되는 요소를 알아보겠습니다. 
 
-<img src="./resources/domain-driven-design-002.png" height=400>
+<img src="./resources/domain-driven-design-002.png" height=500>
 
 ### Entity
 

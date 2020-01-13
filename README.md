@@ -42,7 +42,7 @@
 - [Monolithic Architecture](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/Monolithic%20Architecture.md#monolithic-architecture)
 - [Microservice Architecture](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/Microservice%20Architecture.md#microservice-architecture)
 - [DDD (Domain Driven Design)](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/DDD%20(Domain%20Driven%20Design).md#ddd-domain-driven-design)
-- [TDD (Test Driven Development](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/TDD%20(Test%20Driven%20Development).md#tdd-test-driven-development)
+- [TDD (Test Driven Development)](https://github.com/GimunLee/tech-refrigerator/blob/master/Software%20Engineering/TDD%20(Test%20Driven%20Development).md#tdd-test-driven-development)
 
 <br/>
 

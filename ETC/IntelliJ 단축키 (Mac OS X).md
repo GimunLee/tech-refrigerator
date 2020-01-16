@@ -4,20 +4,32 @@
 
 <br/>
 
+## Index
+
+- [**기호 설명**]()
+- [**File**]()
+- [**Refector & Creator**]()
+
+- [**Editor**]()
+- [**Run & Dedug**]()
+- [**이동**]()
+- [**작업(형상)관리**]()
+- [**Layout**]()
+- [**Multiline**]()
+- [**텍스트**]()
+- [**바로가기**]()
+- [**Syntax**]()
+
+<br/>
+
 ## 기호 설명
 
 - **`⌘` : command**
-
 - **`⌃` : control**
-
 - **`⇧` : shift**
-  
 - **`⌥` : option(alt)**
-  
 - **`⎋` : esc**
-  
 - **`⏎` : return(enter)**
-  
 - **`⇥` : tab**
 
 <br/>
@@ -34,17 +46,15 @@
 
 <br/>
 
-## Refector
+## Refector & Creator
 
 - `⌘(command)` + `⌥(option)` + `M` : 메서드 분리
-  
 - `⌘(command)` + `⌥(option)` + `C` : 상수 분리 생성 (`public static final ...`)
-  
 - `⌘(command)` + `⌥(option)` + `F` : 필드(객체변수) 분리
-  
 - `⌘(command)` + `⌥(option)` + `V` : 지역변수 분리
-  
 - `⇧(shift)` + `F6` : 이름 바꾸기
+- `⌘(command)` + `⇧(shift)` + `T` : 테스트케이스 생성
+  - 이후 `⌘(command)` + `N` 을 이용하면 테스트 메서드 생성이 편리함
 
 <br/>
 
@@ -78,39 +88,21 @@
 
 <br/>
 
-## 실행
+## Run & Dedug
 
 - `⌘(command)` + `F9` : 컴파일
-  
 - `⌘(command)` + `R` : Run View에서 현재 포커싱 실행 // 실행 중이면 재실행
-  
 - `⌘(command)` + `F2` : Run View에서 현재 활성화된 실행을 Kill
-
 - `⌃(control)` + `R` : 최근 실행한 것을 다시 실행
-  
 - `⌃(control)` + `⌥(option)` + `R` : 현재 커서나 포커싱 된 파일에 실행가능한 것을 노출 후 선택 실행 가능
-  
   - 보통 단위테스트 시 해당 커서가 메서드 안에 있는 상태에서 위 단축키를 누르고 `2` 를 누르면 바로 메소드 테스트 실행
-  
 - `⌃(control)` + `D` : 최근 실행한 것을 다시 실행 // 디버깅 모드
-  
 - `⌃(control)` + `⇧(shift)` + `D` : 현재 커서나 포커싱 된 파일에 실행가능한 것을 노출 후 선택 실행 가능 // 디버깅 모드
-  
-- `⌃(control)` + SHIFT + D : 현재 커서가 있는 파일 또는 유닛테스트를 build & debug
-  
-- `F8`: 디버깅 중에 누르면 next line으로 진행
-  
-- `⌘(command)` + F8 : 현재 커서에 브레이크 포인트 토글
-  
-- `⌘(command)` + OPT + R : 현재 브레이크포인트에 멈춰있는 어플리케이션을 Resume
-
-<br/>
-
-## 생성
-
-- `⌘(command)` + `⇧(shift)` + `T` : 테스트케이스생성
-  
-  - 이후 `⌘(command)` + `N` 을 이용하면 테스트 메서드 생성이 편리함
+- `⌃(control)` + `⇧(shift)` + `D` : 현재 커서가 있는 파일 또는 유닛테스트를 build & debug
+- `F8` : 디버깅 중에 누르면 next line으로 진행
+- `⌘(command)` + `F8` : 현재 커서에 브레이크 포인트 토글
+- `⌘(command)` + `⌥(option)` + `R` : 현재 브레이크포인트에 멈춰있는 어플리케이션을 Resume
+- `⌥(option)` + `F8` : Evaluate
 
 <br/>
 

@@ -1,5 +1,15 @@
 <img src="./resources/tech-refrigerator-logo.png">
 
+https://img.shields.io/github/contributors/GimunLee/tech-refrigerator
+
+https://img.shields.io/github/last-commit/GimunLee/tech-refrigerator
+
+https://img.shields.io/github/license/GimunLee/tech-refrigerator
+
+https://img.shields.io/github/issues/GimunLee/tech-refrigerator
+
+https://img.shields.io/github/issues-pr/GimunLee/tech-refrigerator
+
 개발자에게 필요하고 유용한 양식들을 모아놓은 기술 냉장고입니다. [`Anna`](https://github.com/ahlim721)와 [`GimunLee`](https://github.com/GimunLee)가 기본적인 지식부터 심화 지식까지 공부하며 채워 넣을게요. 우리의 냉장고가 여러분의 기술 습득, 면접, 스터디 등에 많은 도움이 되기를 바라요.
 
 📝 공부하면서 정리하는 기술 저장소입니다. 여러분들과 소통하며 채워가고 싶어요. 😀

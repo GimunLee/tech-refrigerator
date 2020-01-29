@@ -24,14 +24,14 @@ GoF (Gang of Four) 라고 불리는 4명의 개발자가 23가지의 디자인 �
 ### 생성(Creational) 패턴
 
 > 객체 생성에 관련하여, 특정 객체가 생성되고 변경되어도 프로그램 구조에 영향을 주지 않도록 유연성을 제공합니다.
-  
+
 - 빌더 (Builder)
 - 팩토리 (Factory)
   - [팩토리 메소드 (Factory Method)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Factory%20Pattern%20(1)%20-%20Factory%20Method%20Pattern.md#-factory-pattern-1---factory-method-pattern)
-  - 추상 팩토리 (Abstract Factory)
+  - [추상 팩토리 (Abstract Factory)]()
 - 프로토타입 (Proto)
 - [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Singleton%20Pattern.md#%EF%B8%8F-singleton-pattern)
-    
+  
 ### 구조(Structural) 패턴
 
 > 클래스나 객체를 조합하여 더 큰 구조, 새로운 구조를 제공하는 패턴
@@ -43,7 +43,7 @@ GoF (Gang of Four) 라고 불리는 4명의 개발자가 23가지의 디자인 �
 - 퍼사드 (Facade)
 - 플라이웨이트 (Flyweight)
 - 프록시 (Proxy)
-    
+  
 ### 행위(Behavior) 패턴
 
 > 알고리즘이나 책임 분배에 관련된 패턴으로 객체 사이의 역할을 분담하며, 결합도를 최소화 하는 것에 중점을 둡니다.

@@ -28,7 +28,7 @@ GoF (Gang of Four) 라고 불리는 4명의 개발자가 23가지의 디자인 �
 - 빌더 (Builder)
 - 팩토리 (Factory)
   - [팩토리 메소드 (Factory Method)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Factory%20Pattern%20(1)%20-%20Factory%20Method%20Pattern.md#-factory-pattern-1---factory-method-pattern)
-  - [추상 팩토리 (Abstract Factory)]()
+  - [추상 팩토리 (Abstract Factory)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Factory%20Pattern%20(2)%20-%20Abstract%20Factory%20Pattern.md#-factory-pattern-2---abstract-factory-pattern)
 - 프로토타입 (Proto)
 - [싱글톤 (Singleton)](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Singleton%20Pattern.md#%EF%B8%8F-singleton-pattern)
   

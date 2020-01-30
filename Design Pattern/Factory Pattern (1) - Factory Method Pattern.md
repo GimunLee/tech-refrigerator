@@ -407,7 +407,7 @@ new 연산자를 사용하면 구상 클래스에 대한 레퍼런스를 사용�
 
 ## Conclusion
 
-Factory Pattern은 매우 중요하고 활용도가 높은 패턴아며 그만큼 내용도 방대합니다. 다음 장에서는 상황을 좀 더 세분화하여 문제점을 찾고 Abstract Factory Pattern으로 그 문제를 해결해보도록 하겠습니다.
+Factory Pattern은 매우 중요하고 활용도가 높은 패턴아며 그만큼 내용도 방대합니다. 다음 장에서는 상황을 좀 더 세분화하여 문제점을 찾고 [Abstract Factory Pattern](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Factory%20Pattern%20(2)%20-%20Abstract%20Factory%20Pattern.md#-factory-pattern-2---abstract-factory-pattern)으로 그 문제를 해결해보도록 하겠습니다.
 
 <br/>
 

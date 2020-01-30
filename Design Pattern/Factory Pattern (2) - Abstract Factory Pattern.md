@@ -177,9 +177,7 @@ public class NYPizzaStore extends PizzaStore {
 }
 ```
 
-팩토리 메소드 패턴을 써서 만든 소스와 비교 추가
-
-
+[팩토리 메소드 패턴](https://github.com/GimunLee/tech-refrigerator/blob/master/Design%20Pattern/Factory%20Pattern%20(1)%20-%20Factory%20Method%20Pattern.md#%ED%94%BC%EC%9E%90-%EA%B0%80%EA%B2%8C-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)에서 createPizza() 메소드와 비교해보시길 바랍니다.
 
 <br/>
 
@@ -216,6 +214,18 @@ public class NYPizzaStore extends PizzaStore {
 **추상 팩토리 패턴 뒤에는 팩토리 메소드 패턴이 숨어있는 건가요?**
 
 추상 팩토리 패턴에서 메소드가 팩토리 메소드로 구현되는 경우도 종종 있습ㄴ디ㅏ. 추상 패토리가 원래 일련의 제품들을 생성하는 데 쓰일 인터페이스를 정의하기 위해 만들어진 거니까요. 그 인터페이스에 있는 각 메소드는 구상 제품을 생산하는 일을 맡고 있고, 추상 팩토리의 서브클래스를 만들어서 각 메소드의 구현을 제공합니다. 따라서 추상 팩토리 패턴에서 제품을 생산하기 위한 메소드를 구현하는 데 있어서 팩토리 메소드를 사용하는 것은 너무나도 자연스러운 일입니다.
+
+<br/>
+
+## 클래스 다이어그램 비교
+
+### 팩토리 메소드 패턴
+
+<img src="./resources/factory-pattern-02-004.png">
+
+### 추상 팩토리 패턴
+
+<img src="./resources/factory-pattern-02-005.png">
 
 <br/>
 

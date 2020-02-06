@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/github/license/GimunLee/tech-refrigerator"/> <img src="https://img.shields.io/github/last-commit/GimunLee/tech-refrigerator"/> <img src="https://img.shields.io/github/contributors/GimunLee/tech-refrigerator"> <img src="https://img.shields.io/github/issues/GimunLee/tech-refrigerator"/> <img src="https://img.shields.io/github/issues-pr/GimunLee/tech-refrigerator"/> [![HitCount](http://hits.dwyl.io/GimunLee/tech-refrigerator.svg)](http://hits.dwyl.io/GimunLee/tech-refrigerator)
+<img src="https://img.shields.io/github/license/GimunLee/tech-refrigerator"/> <img src="https://img.shields.io/github/last-commit/GimunLee/tech-refrigerator"/> <img src="https://img.shields.io/github/contributors/GimunLee/tech-refrigerator"> <img src="https://img.shields.io/github/issues/GimunLee/tech-refrigerator"/> <img src="https://img.shields.io/github/issues-pr/GimunLee/tech-refrigerator"/>
 
 <img src="./resources/tech-refrigerator-logo.png">
 

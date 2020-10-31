@@ -189,6 +189,14 @@
   
 - `thr` : `throw new`
 
+- `sout` : 문자열을 `System.out`으로 출력
+
+- `soutv` : 변수를 `System.out`으로 출력
+
+- `soutm` : 현재 클래스와 메소드 이름을 `System.out`으로 출력
+
+- `soutp` : 현재 메소드의 파라미터들을 `System.out`으로 출력
+
 <br/>
 
 ## Reference & Additional Resources
